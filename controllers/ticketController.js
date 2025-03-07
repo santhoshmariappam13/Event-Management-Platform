@@ -1,4 +1,4 @@
-// controllers/ticketController.js
+
 const Ticket = require('../models/ticket');
 
 const buyTicket = async (req, res) => {
@@ -8,7 +8,7 @@ const buyTicket = async (req, res) => {
     eventId,
     userId: req.userId,
     ticketType,
-    price: 200, // Example price, adjust based on event's ticket type
+    price: 200, 
   });
 
   await ticket.save();
