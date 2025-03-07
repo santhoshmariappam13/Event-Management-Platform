@@ -1,4 +1,4 @@
-// controllers/registrationController.js
+
 const Registration = require('../models/Registration');
 
 const registerForEvent = async (req, res) => {
