@@ -1,4 +1,4 @@
-// controllers/paymentController.js
+
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 const Transaction = require('../models/Transaction');
 const Ticket = require('../models/ticket');
